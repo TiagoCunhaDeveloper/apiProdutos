@@ -1,3 +1,3 @@
-# CRUD em NodeJS e mongoDB
+# Api produtos
 
-### Projeto realizado no curso "Curso NodeJS" da rocketseat.
+### CRUD em NodeJS e MongoDB para controle de produtos.

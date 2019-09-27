@@ -2,7 +2,7 @@ const moongose = require ('mongoose');
 const moongosePaginate = require('mongoose-paginate');
 
 const ProductSchema = new moongose.Schema({
-    title: {
+    name: {
         type: String,
         required: true,
     },
@@ -10,7 +10,7 @@ const ProductSchema = new moongose.Schema({
         type: String,
         required: true,
     },
-    url: {
+    price: {
         type: String,
         required: true,
     },
