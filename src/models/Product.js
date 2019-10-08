@@ -14,6 +14,10 @@ const ProductSchema = new moongose.Schema({
         type: String,
         required: true,
     },
+    imgUrl: {
+        type: String,
+        required: true,
+    },
     createdAt:{
         type: Date,
         default: Date.now,
